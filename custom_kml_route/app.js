@@ -3,5 +3,5 @@ define(['custom_kml_route/js/Ticket/TicketContext'], function(Ticket_TicketConte
 		init: function() {
 			this.register('ticket', Ticket_TicketContext);
 		}
-  };
+	};
 });

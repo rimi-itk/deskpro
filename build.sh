@@ -2,5 +2,8 @@
 
 for f in */manifest.json; do
 	name=${f%/*};
+	if [ -e $name.zip ]; then
+			rm $name.zip
+	fi
 	zip -r $name.zip $name/
 done
