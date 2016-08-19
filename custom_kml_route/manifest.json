@@ -1,27 +1,27 @@
 {
-  "package_name": "custom_kml_route",
-  "is_native": false,
-  "title": "KML Route",
-  "description": "This apps does stuff with KML",
-  "tags": [
+	"package_name": "custom_kml_route",
+	"is_native": false,
+	"title": "KML Route",
+	"description": "This apps does stuff with KML",
+	"tags": [
 		"custom",
 		"kml"
-  ],
-  "api_version": 1,
-  "version": 1,
-  "version_name": "1.0.0",
-  "is_single": true,
-  "author": {
-    "name": "Mikkel Ricky",
-    "email": "rimi@aarhus.dk",
-    "link": "https://www.deskpro.com/"
-  },
-  "settings_def": [
+	],
+	"api_version": 1,
+	"version": 1,
+	"version_name": "1.0.0",
+	"is_single": true,
+	"author": {
+		"name": "Mikkel Ricky",
+		"email": "rimi@aarhus.dk",
+		"link": "https://www.deskpro.com/"
+	},
+	"settings_def": [
 		{
-      "name": "custom_kml_route_field_mapping",
-      "type": "textarea",
-      "label": "KML field mapping",
-      "description": "Enter JSON mapping from kml url field to …"
-    }
+			"name": "custom_kml_route_field_mapping",
+			"type": "textarea",
+			"label": "KML field mapping",
+			"description": "Enter JSON mapping from kml url field to …"
+		}
 	]
 }
