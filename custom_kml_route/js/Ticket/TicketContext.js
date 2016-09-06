@@ -48,10 +48,10 @@ define(function () {
 				for (var id in map) {
 					var field = getTicketField(id);
 					if (field) {
-						var fieldMap = map[id];
+						field.data('map', map[id]);
 						field.on('change', function(event) {
 							var url = $(this).val();
-							processUrl(url, fieldMap, $http);
+							processUrl(url, $(this).data('map'), $http);
 						});
 					}
 				}

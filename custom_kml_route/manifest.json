@@ -21,7 +21,7 @@
 			"name": "custom_kml_route_field_mapping",
 			"type": "textarea",
 			"label": "KML field mapping",
-			"description": "Enter JSON mapping from kml url field to …"
+			"description": "Enter JSON mapping from kml url field (id) to data fields (ids), e.g.\n{\n  \"131\": { \"START\": \"51\", \"FINISH\": \"52\", \"Fly-Over Tour\": \"37\" },\n  \"132\": { \"START\": \"53\", \"FINISH\": \"54\", \"Fly-Over Tour\": \"55\" },\n  \"133\": { \"START\": \"57\", \"FINISH\": \"58\", \"Fly-Over Tour\": \"56\" }\n}"
 		}
 	]
 }
