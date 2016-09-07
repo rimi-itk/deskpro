@@ -5,5 +5,5 @@ for f in */manifest.json; do
 	if [ -e $name.zip ]; then
 			rm $name.zip
 	fi
-	zip -r $name.zip $name/
+	zip -r $name.zip $(git ls-files $name)
 done
